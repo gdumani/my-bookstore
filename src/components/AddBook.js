@@ -6,7 +6,7 @@ const Addbook = () => (
     <form>
       <input type="text" placeholder="Book Title" />
       <select id="category" name="category">
-        <option value="" selected disabled>Category</option>
+        <option value="Category" selected disabled>Category</option>
       </select>
       <button type="button">Add Book</button>
     </form>
