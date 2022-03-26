@@ -1,5 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
-/* eslint-disable react/jsx-key */
 import React from 'react';
 import Book from './Book';
 
@@ -27,9 +25,19 @@ const BOOKDATA = [
 const Booklist = () => (
   <div>
     <ul>
-      {BOOKDATA.map((book) => (
-        <Book {...book} />
-      ))}
+      {BOOKDATA.map((book) => {
+        const {
+          id, title, author, category,
+        } = book;
+        return (
+          <Book
+            key={id}
+            {...{
+              id, title, author, category,
+            }}
+          />
+        );
+      })}
     </ul>
   </div>
 );
