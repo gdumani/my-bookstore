@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Categories = () => <button type="button">Check status</button>;
+const Categories = () => <h1>Under Construction</h1>;
 
 export default Categories;
