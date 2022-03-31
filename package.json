@@ -10,7 +10,8 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "0.9.5",
     "redux": "^4.1.2",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
