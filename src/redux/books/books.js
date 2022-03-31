@@ -18,10 +18,18 @@ export const getBooks = () => async (dispatch) => {
   });
 };
 
-export const addBook = (payload) => ({
-  type: ADD_BOOK,
-  payload,
-});
+export const addBook = (payload) => async (dispatch) => {
+  try {
+    await axios.post(API_URL, payload);
+    dispatch({
+      type: ADD_BOOK,
+      payload,
+    });
+  } catch (error) {
+    return error;
+  }
+};
+
 export const removeBook = (id) => ({
   type: REMOVE_BOOK,
   id,
