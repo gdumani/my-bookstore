@@ -30,10 +30,17 @@ export const addBook = (payload) => async (dispatch) => {
   }
 };
 
-export const removeBook = (id) => ({
-  type: REMOVE_BOOK,
-  id,
-});
+export const removeBook = (id) => async (dispatch) => {
+  try {
+    await axios.delete(API_URL + id);
+    dispatch({
+      type: REMOVE_BOOK,
+      id,
+    });
+  } catch (error) {
+    return error;
+  }
+};
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
