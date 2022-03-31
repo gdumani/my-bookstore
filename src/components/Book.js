@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
 
 const Book = (props) => {
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
   const {
     id, title, author, category,
   } = props;
@@ -24,10 +24,10 @@ const Book = (props) => {
   );
 };
 
-export default Book;
 Book.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 };
+export default Book;
