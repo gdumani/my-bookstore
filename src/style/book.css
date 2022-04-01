@@ -1,0 +1,90 @@
+.BookClass {
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+
+.book {
+  width: 40%;
+  padding-left: 1.5rem;
+}
+
+.book h3 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.book h6,
+button {
+  color: #4386bf;
+}
+
+.book h6 {
+  padding: 0;
+  margin-top: 0;
+}
+
+.remove {
+  background: none;
+  border-color: #4386bf;
+  border-style: none solid;
+}
+
+.book h5 {
+  opacity: 0.5;
+}
+
+.progress {
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+}
+
+.ChapterLbl {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.chapter {
+  font-weight: bold;
+}
+
+.graph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.percent {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.pie {
+  width: 70px;
+  height: 70px;
+  border-radius: 3rem;
+  border: 5px solid #3487e7;
+  border-right: 5px solid #ddd;
+  transform: rotate(225deg);
+  margin: 0 2rem;
+}
+
+.progBtn {
+  background-color: #0290ff;
+  color: white;
+  border: none;
+  padding: 0.3rem;
+}
