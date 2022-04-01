@@ -27,7 +27,7 @@ Clone the repository:
 
 `cd my-bookstore`
 
-`git checkout feature/redux-conn`
+`git checkout feature/api`
 
 Load required npm software
 
