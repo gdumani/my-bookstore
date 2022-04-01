@@ -3,8 +3,8 @@
   margin: auto;
   margin-bottom: 0.5rem;
   padding-bottom: 1rem;
-  border-top: solid lightgrey;
-  border-width: 2px;
+  border-top: solid #e8e8e8;
+  border-width: 1px;
 }
 
 .addform input {
@@ -16,15 +16,25 @@ select,
 button {
   padding: 0.5rem;
   margin-right: 1rem;
+  background: none;
+  border: 1px solid #e8e8e8;
 }
 
 .addform button {
   background-color: #0290ff;
   color: white;
+  border: none;
+  border-radius: 3px;
 }
 
 .addform form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
 }
