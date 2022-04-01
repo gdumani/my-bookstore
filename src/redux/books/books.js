@@ -19,15 +19,20 @@ export const getBooks = () => async (dispatch) => {
 };
 
 export const addBook = (payload) => async (dispatch) => {
+  const {
+    id, title, author, category,
+  } = payload;
   try {
-    await axios.post(API_URL, payload);
+    await axios.post(API_URL, {
+      item_id: id, title, author, category,
+    });
     dispatch({
       type: ADD_BOOK,
       payload,
     });
   } catch (error) {
     return error;
-  }
+  } return true;
 };
 
 export const removeBook = (id) => async (dispatch) => {
@@ -39,7 +44,7 @@ export const removeBook = (id) => async (dispatch) => {
     });
   } catch (error) {
     return error;
-  }
+  } return true;
 };
 
 const reducer = (state = initialState, action) => {
