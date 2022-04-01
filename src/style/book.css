@@ -1,5 +1,6 @@
 .BookClass {
   font-family: 'Roboto Slab', serif;
+  font-weight: 300;
   display: flex;
   width: 90%;
   background-color: white;
@@ -20,6 +21,11 @@
   margin-bottom: 0;
 }
 
+.book h4 {
+  font-size: 1.375rem;
+  margin: 0;
+}
+
 .book h6,
 button {
   color: #4386bf;
@@ -32,26 +38,31 @@ button {
 
 .remove {
   background: none;
-  border-color: #4386bf;
-  border-style: none solid;
+  border: none;
+  border-right: solid 1px #e8e8e8;
 }
 
-.book h5 {
+.book h5,
+.ChapterLbl {
   opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .progress {
   padding-right: 2rem;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .ChapterLbl {
   text-transform: uppercase;
-  font-size: small;
+  font-size: 0.813rem;
+  color: #121212;
 }
 
 .chapter {
-  font-weight: bold;
+  font-size: 1rem;
 }
 
 .graph {
@@ -87,4 +98,5 @@ button {
   color: white;
   border: none;
   padding: 0.3rem;
+  border-radius: 3px;
 }
