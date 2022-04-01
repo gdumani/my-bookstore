@@ -16,6 +16,7 @@ const Book = (props) => {
         <h4>{title}</h4>
         <h6>{author}</h6>
         <button
+          className="remove"
           id={id}
           onClick={() => dispatch(removeBook(id))}
           type="button"

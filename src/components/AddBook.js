@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 } from 'uuid';
 import { addBook } from '../redux/books/books';
+import '../style/addbook.css';
 
 const Addbook = () => {
   const tempCats = ['Action', 'Science Fiction', 'Economy', 'Other'];
@@ -25,7 +26,7 @@ const Addbook = () => {
   };
 
   return (
-    <div>
+    <div className="addform">
       <h3>ADD NEW BOOK</h3>
       <form onSubmit={handleClick}>
 
