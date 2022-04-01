@@ -12,6 +12,7 @@ const Booklist = () => {
     <div>
       <ul>
         {books.map((book) => {
+          console.log(book);
           const {
             id, title, author, category,
           } = book;
