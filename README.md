@@ -27,7 +27,7 @@ Clone the repository:
 
 `cd my-bookstore`
 
-`git checkout feature/api`
+`git checkout feat/style`
 
 Load required npm software
 
