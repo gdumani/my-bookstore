@@ -3,14 +3,14 @@
   background-color: white;
   padding: 1.2rem;
   width: 95%;
-  align-items:center;
-  justify-content:space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav ul {
   display: flex;
   list-style: none;
-  color: #444444;
+  color: #444;
   text-transform: uppercase;
   align-items: center;
   font-size: 0.83rem;
