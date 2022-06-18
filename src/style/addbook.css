@@ -8,13 +8,13 @@
 }
 
 .addform input {
-  width: 30%;
+  width: 25%;
 }
 
 .addform input,
 select,
 button {
-  padding: 0.5rem;
+  padding: .5rem 2rem;
   margin-right: 1rem;
   background: none;
   border: 1px solid #e8e8e8;

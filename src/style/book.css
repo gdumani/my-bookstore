@@ -29,6 +29,7 @@
 .book h6,
 button {
   color: #4386bf;
+  border:none;
 }
 
 .book h6 {
@@ -36,10 +37,15 @@ button {
   margin-top: 0;
 }
 
+.comm-ed {
+  padding: 0;
+}
+
 .remove {
   background: none;
-  border: none;
   border-right: solid 1px #e8e8e8;
+  border-left: solid 1px #e8e8e8;
+  padding: 0 1rem;
 }
 
 .book h5,
@@ -97,6 +103,6 @@ button {
   background-color: #0290ff;
   color: white;
   border: none;
-  padding: 0.3rem;
+  padding: 0.5rem;
   border-radius: 3px;
 }

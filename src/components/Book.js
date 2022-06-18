@@ -15,6 +15,7 @@ const Book = (props) => {
         <h5>{category}</h5>
         <h4>{title}</h4>
         <h6>{author}</h6>
+        <button className='comm-ed'>Comments</button>
         <button
           className="remove"
           id={id}
@@ -23,6 +24,7 @@ const Book = (props) => {
         >
           Remove
         </button>
+        <button className='comm-ed'>Edit</button>
       </div>
       <div className="graph">
         <div className="pie" />

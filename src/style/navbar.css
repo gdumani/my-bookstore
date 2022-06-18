@@ -3,31 +3,29 @@
   background-color: white;
   padding: 1.2rem;
   width: 95%;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
+  align-items:center;
+  justify-content:space-between;
 }
 
 .nav ul {
   display: flex;
   list-style: none;
-  color: black;
+  color: #444444;
   text-transform: uppercase;
   align-items: center;
   font-size: 0.83rem;
-  opacity: 0.5;
-  margin: 2rem;
 }
 
 .nav li {
   padding-right: 2rem;
 }
 
-.nav h1 {
+.title {
   font-size: 1.875rem;
   padding-left: 5rem;
   font-weight: bold;
   color: #0290ff;
+  opacity: 1;
 }
 
 .nav img {
@@ -37,4 +35,9 @@
   border: solid #0290ff;
   border-width: 2px;
   border-radius: 50%;
+  margin-right: 3rem;
 }
+
+/* link {
+  opacity: 0.5;
+} */

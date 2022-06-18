@@ -5,8 +5,10 @@ import head from '../pages/head.svg';
 
 const NavBar = () => (
   <div className="nav">
-    <h1>Book Store</h1>
     <ul>
+      <li>
+        <h1 className='title'>Book Store</h1>
+      </li>
       <li>
         <Link to="/">BOOKS</Link>
       </li>
