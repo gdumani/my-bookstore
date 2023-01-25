@@ -1,13 +1,45 @@
-# Book Store React/Redux App 
+<a name="readme-top"></a>
 
-This project is an example of React/Redux. It is a two page website, a main page with a list of books and a categories page
+<div align="center">
+
+  <h3><b>Book Store React/Redux App </b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Book Store React/Redux App ] <a name="about-project"></a>
+
+**[Book Store React/Redux App ]** is an example of React/Redux. It is a two page website, a main page with a list of books and a categories page
 
 ## Screenshot
 
 ![screenshot](./app_screenshot.png)
 
-## Built With
 
+## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
 - JavaScript
@@ -15,62 +47,86 @@ This project is an example of React/Redux. It is a two page website, a main page
 - React
 - React router
 
-## Requisites
-node v16.13
-npm v8.3
+### Tech Stack <a name="tech-stack"></a>
 
-## Installation
+The app was developed using React js, JavaScript and CSS
 
-Clone the repository: 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-`git clone https://github.com/gdumani/my-bookstore.git`
 
-`cd my-bookstore`
+<!-- Features -->
 
-`git checkout feature/redux-conn`
+### Key Features <a name="key-features"></a>
 
-Load required npm software
+> Describe between 1-3 key features of the application.
 
-`npm install`
+- **[Display a list of books with a remove button]**
+- **[Display a form to add new books]**
+- **[Display a navbar so select between Categories and Books pages ]**
+- **[Add reducers and actions]**
+- **[Use Redux in React components]**
 
-## Available Scripts
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-In the project directory, you can run:
+<!-- LIVE DEMO -->
 
-`npm start`
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Add a link to your deployed project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Live Demo Link](https://yourdeployedapplicationlink.com) Not yet available
 
-`npm test`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- GETTING STARTED -->
 
-`npm run build`
+## 💻 Getting Started <a name="getting-started"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In order to run this project you need to have installed Nodejs
 
-`npm run eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone this repository to your desired folder:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+  cd my-folder
+  git clone https://github.com/gdumani/my-bookstore.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install this project with:
 
-## Authors
+```sh
+  cd my-bookstore
+  git checkout redux-con2
+  git pull
+  npm install
+
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
 
 **Giancarlo Dumani**
 
@@ -79,22 +135,36 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - LinkedIn: [ Giancarlo-Dumani](https://www.linkedin.com/in/gdumani/?originalSubdomain=cr)
 
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- **[Connect to API]**
+- **[Add styling according to a Template]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
 
-Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<!-- LICENSE -->
 
-## 📝 License
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
